@@ -211,6 +211,7 @@ public class ArticleListActivity extends AppCompatActivity implements
         }
     }
 
+
     public static class ViewHolder extends RecyclerView.ViewHolder {
         public DynamicHeightNetworkImageView thumbnailView;
         public TextView titleView;
