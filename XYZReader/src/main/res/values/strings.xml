@@ -8,5 +8,8 @@
     <string name="action_share">Share</string>
 
     <string name="up">Up</string>
+    <string name="ok">OKAY</string>
+    <string name="hint">Hint</string>
+    <string name="loading_data">Your Data is Loading Please Wait</string>
 
 </resources>

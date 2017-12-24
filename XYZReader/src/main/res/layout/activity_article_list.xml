@@ -1,5 +1,6 @@
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinator"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -36,12 +37,18 @@
             android:layout_height="?actionBarSize"
             android:layout_gravity="bottom">
 
+            <android.support.v7.widget.Toolbar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
             <ImageView
+                android:foregroundGravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/logo"
                 android:layout_marginStart="@dimen/detail_body_text_size"
                 android:contentDescription="@string/app_name" />
+            </android.support.v7.widget.Toolbar>
+
 
         </android.support.design.widget.AppBarLayout>
         <!--<android.support.v7.widget.Toolbar-->
